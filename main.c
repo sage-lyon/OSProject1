@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
@@ -20,11 +19,4 @@ int main (int argc, char** argv) {
     }
 
     return 0;
-=======
-#include <fstream>
-#include <iostream>
-
-int main() {
-	return(0);
->>>>>>> 849cd63472ed50b5b35718e40e83cc90c5293763
 }
