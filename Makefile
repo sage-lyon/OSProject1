@@ -1,4 +1,4 @@
-CC=g++
+CC=gcc
 CFLAGS=-I.
 OBJ = main.o
 
