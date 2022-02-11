@@ -16,7 +16,6 @@ int main (int argc, char** argv) {
 
     if(atoi(argv[1]) <= MAX_CHILDREN){
         num_children = atoi(argv[1]);
-        printf("%d\n\n\n", num_children);
     }
     else{
         printf("ERROR: Number of children must be %d or less\n", MAX_CHILDREN);
