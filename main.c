@@ -9,6 +9,11 @@ int main (int argc, char** argv) {
     int child_number, num_children;
     pid_t pid_list[MAX_CHILDREN];
 
+    if(argc != 2){
+        printf("ERROR: Invalid number of arguments.\n");
+	return -1;
+    }
+
     if(atoi(argv[1]) <= MAX_CHILDREN){
         num_children = atoi(argv[1]);
         printf("%d\n\n\n", num_children);
