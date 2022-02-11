@@ -63,6 +63,7 @@ int main (int argc, char** argv) {
     }
     if(child_pid != 0){
         for(int i = 0; i < num_children; i++){
+			fflush(stdout);
             child_pid = wait();
             for(int j = 0; j < num_children; j++){
                 fflush(stdout);
